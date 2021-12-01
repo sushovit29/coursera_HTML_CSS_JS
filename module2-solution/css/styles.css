@@ -22,9 +22,20 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #f7ff82;
     border: 1px solid black;
     width: auto;
+}
+
+.para1 {
+    background-color: #b1ffa3;
+}
+
+.para2 {
+    background-color: #90bafc;
+}
+
+.para3 {
+    background-color: #fc8b94;
 }
 
 .para-text {
