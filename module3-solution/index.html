@@ -1,66 +1,71 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/coursera-webdev/module2-solution/css/styles.css">
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
-    <title>Week 2 Assignment</title>
-</head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a class="visible-xs" id="options-text" href="#">Chicken</a></li>
+          <li><a class="visible-xs" id="options-text" href="#">Beef</a></li>
+          <li><a class="visible-xs" id="options-text" href="#">Sushi</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Food, LLC</a>
-          </div>
-      
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
+  <div id="main-content" class="container">
+    <p class="text-center" id="menu-title">Our Menu</p>
 
+    <div id="menu-heading">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a est sed augue dignissim efficitur. Mauris ultricies eleifend accumsan. Proin ullamcorper, diam eu placerat scelerisque, odio nulla tristique ante, at accumsan tortor nibh eu dolor. Proin hendrerit luctus metus. Etiam euismod, felis sit amet efficitur convallis, odio sem placerat dui, ac varius dui eros et justo. Nulla eget mattis turpis. Cras facilisis rutrum scelerisque. Ut commodo cursus congue. Maecenas id metus et ipsum cursus scelerisque vitae nec est. Fusce tincidunt tellus at ultrices imperdiet.
+        Suspendisse semper, arcu id ultricies luctus, sapien arcu sodales tortor, at pellentesque eros dui in purus. Mauris fringilla nibh a magna consequat, eu iaculis lacus tincidunt. Aliquam rhoncus dapibus quam eu tempus. Nam consectetur, erat non faucibus varius, purus leo varius turpis, non molestie elit nibh in est. Etiam a mi laoreet, bibendum ante in, ornare tortor. Suspendisse lorem dolor, blandit at felis non, pretium lobortis urna. Donec fermentum neque vitae tincidunt placerat. Aenean sit amet scelerisque ex. In placerat tempus mauris, at auctor mi lobortis nec. Aliquam a sem sit amet est gravida tempus non et eros. Integer nisi justo, molestie ut congue eget, consectetur id nibh. Praesent et fermentum tellus. Cras ut elit eget tellus efficitur posuere eu eget felis. Pellentesque mattis urna vitae elit consequat, ut egestas augue gravida. Vivamus eget eleifend libero.
+        Duis sed gravida erat. Morbi tincidunt vel purus vitae rhoncus. Integer placerat leo et risus lobortis, non convallis ligula porttitor. Cras id pulvinar erat. Mauris bibendum sapien vel facilisis fermentum. Quisque vulputate ex eget blandit efficitur. Nunc consectetur nibh et odio pellentesque, porta sagittis lacus maximus. Fusce id viverra ex. Nunc efficitur quis sapien a commodo.
+        Aenean odio diam, malesuada sed tortor nec, porttitor porttitor velit. Maecenas id malesuada lorem, eu venenatis est. Pellentesque nec mi pretium, malesuada magna hendrerit, laoreet lectus. Morbi vitae ipsum est. Phasellus at quam et justo rhoncus eleifend id ac tellus. In vel metus nec sapien tempus bibendum. Curabitur dolor lacus, scelerisque id risus a, congue aliquam sapien.
+        Mauris a euismod ipsum, ac pellentesque libero. Nam vitae aliquet ante, at vulputate lectus. Integer sodales molestie feugiat. Nam at blandit nulla. Morbi quis eros sollicitudin nisl tempus aliquam a a ex. Vivamus blandit id justo eu euismod. Fusce bibendum purus ex, vel mollis libero fringilla ac. Phasellus blandit suscipit magna, non egestas ante lacinia sit amet. Pellentesque commodo sagittis augue at sollicitudin. Pellentesque sit amet ligula non metus tempor cursus. Phasellus sit amet pretium velit. Phasellus consequat tempor rutrum. Nullam convallis varius orci, venenatis ornare eros pulvinar eu. Vestibulum dapibus interdum ipsum, ut ornare est lacinia vel.
+        Cras mi ipsum, posuere sed ornare et, viverra aliquam urna. Maecenas semper dignissim odio, at porta mi sodales a. Praesent auctor in magna quis euismod. Fusce cursus convallis felis sit amet malesuada. Nullam neque lectus, fringilla at est at, elementum rhoncus nulla. Phasellus vel dapibus leo. Integer finibus sem a velit mattis, eget pharetra felis fermentum. Morbi non nisl lorem. Etiam lectus quam, imperdiet eu accumsan dictum, egestas vitae nunc. Fusce id tellus non orci ullamcorper hendrerit.
+        Aenean lobortis nisi massa, sed posuere eros laoreet at. Nam a massa sollicitudin, convallis orci cursus, ornare arcu. Nunc congue nulla risus, in ultrices nunc aliquam ac. Quisque eu ante enim. Donec eget eleifend ante, nec fringilla tortor. Etiam elementum lacinia ipsum in auctor. Nam vitae vehicula lectus. Proin vitae purus a turpis tincidunt semper. Aenean vestibulum neque nisi, at sollicitudin leo tristique sed.
+        Vestibulum vel leo varius turpis dignissim convallis ut nec nisl. Mauris id commodo nibh. Sed magna urna, egestas sed nisl vel, vulputate euismod turpis. Proin luctus justo tortor, vitae accumsan tellus pretium non. Nunc dignissim vel arcu a blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas et laoreet elit. Nullam congue mollis pellentesque. Cras eleifend eros eu urna scelerisque, hendrerit vehicula sapien malesuada. Quisque vitae dolor ultrices, suscipit massa in, maximus nisl. Pellentesque eleifend, velit ut placerat tincidunt, odio tortor porta ipsum, eu sagittis lectus nisi vitae nisl. Aenean egestas ac neque ac luctus. Duis pharetra, ipsum et condimentum fermentum, justo odio malesuada nulla, nec tempor dolor tellus a justo.
+        Donec aliquam at nunc sit amet pellentesque. Nam tristique efficitur congue. Praesent vitae tortor eleifend, ullamcorper orci sit amet, gravida leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed risus tortor, ultricies sed congue vel, commodo sit amet libero. Mauris tempor purus eu pellentesque scelerisque. Nam dapibus dapibus sapien, ac varius neque tincidunt quis.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc aliquet aliquam purus sit amet tempus. Quisque arcu arcu, cursus nec sem ac, molestie auctor turpis. Ut commodo ullamcorper purus, eu ultricies lectus ullamcorper porttitor. Duis sagittis, tortor non varius ornare, risus nunc placerat metus, at imperdiet sem lacus id velit. Nullam ac quam erat. Donec eu sapien turpis. Ut tristique diam eu ligula condimentum porttitor. Etiam ultrices accumsan erat in interdum. Aenean urna risus, tincidunt vitae ultricies a, laoreet eget augue. Duis at erat nec odio vestibulum rhoncus. Aenean commodo sem sed metus iaculis, ut viverra sem aliquet. Phasellus ut luctus felis. Sed aliquet a felis eget pretium.
+        Praesent aliquet iaculis mattis. Etiam vulputate diam quis neque interdum, sit amet efficitur nunc dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ac nisl metus. In finibus consectetur enim sit amet tincidunt. Maecenas in nunc et mi consectetur tempus. Cras hendrerit, mi ut sodales aliquam, nunc sapien scelerisque dui, eu sodales lectus urna ut purus. Quisque et ultricies nulla. Suspendisse quis ligula non metus sollicitudin placerat. Etiam venenatis convallis est, nec elementum tortor imperdiet vel. Aliquam cursus turpis quis est semper tincidunt. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis, arcu ac gravida hendrerit, turpis purus laoreet ligula, at sollicitudin est augue fermentum turpis. Etiam viverra commodo leo et consequat. Vestibulum porta velit ut pharetra condimentum. Quisque quis orci id ipsum consequat aliquet. Donec tempor massa vitae elit luctus pulvinar.
+      </p>
+    </div>
+  </div><!-- End of #main-content -->
+
+  
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

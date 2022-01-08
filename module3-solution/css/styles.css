@@ -1,3 +1,15 @@
-.navbar {
-    background-color: grey;
+#options-text {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
+#menu-title {
+    font-size: 1.4em;
+    font-style: bold;
+}
+
+#main-content {
+    background-color: cadetblue;
+    color: black;
 }
